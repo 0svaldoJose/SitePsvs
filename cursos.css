@@ -1,0 +1,83 @@
+.big{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+    
+  .norm{
+    margin-bottom: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+  }
+    
+  .container{
+    position: relative;
+   
+  }
+    
+  .linha{
+    border: 2px solid;
+    color: #01641f;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  } 
+  .text{ 
+    text-align: left;
+    overflow: hidden;
+    overflow: auto;
+    height: 70%;
+    align-items: center;
+    align-self: center;
+    color: #000000;
+    text-decoration: none;
+  } 
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .text:hover{ 
+    color: #000000;
+  }
+  
+  .bosc-reverso{
+    flex-direction: row-reverse;
+  }
+  .bosco{
+    display: flex;
+    min-width: 700px;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .textcard:hover{ 
+    overflow: auto;
+    
+  } 
+  .imgbsc{ 
+    width: 386px;
+    height: 428px;
+  }
+  .card{
+    overflow: hidden;
+  }
+  .card-img{
+    transform: scale(1.08);
+  }
+  
+  .card:hover .card-text{
+    transform: scale(0.99);
+    transition: 0.1s;
+  }
+  
+  .card:hover .card-img{
+    transform: scale(1.0);
+    transition: 0.8s;
+  }
+  .card-title{
+    color: rgb(255, 0, 0);
+  }
+  *{ 
+    font-family: 'Inter', sans-serif;
+  }
+  
