@@ -134,7 +134,7 @@ body {
 }
 }
 @media (max-width: 600px ) {
-#cabe{
+  #cabe{
   height: 90px ;
 }
 .titulo{
