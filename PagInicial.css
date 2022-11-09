@@ -90,7 +90,7 @@ main{
   
 } 
 
-@media (min-width: 915px ){
+@media (max-width: 915px ){
  
     #img-big{
       width: 295.19x;
