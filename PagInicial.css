@@ -8,6 +8,13 @@
     bottom: 0;
     left: 0;
 }
+.linha{
+  border: 2px solid;
+  color: #198754;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  opacity: 1;
+}
 .titulo-noticia{
   color: rgb(0, 0, 0);
 }
@@ -34,15 +41,19 @@ main{
   transition: 0.8s;
 }
 .noticias{
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 0.1%;
+  padding-bottom: 3%;
+  width: 100%;
 }
 .big{
   width: 100%;
   margin-bottom: 5%;
   margin-top: 2%;
 }
-  
+#img-big{ 
+  width: 737px;
+  height: 466px;
+}
 .norm{
   margin-bottom: 5%;
   margin-top: 4%;
@@ -54,6 +65,9 @@ main{
   padding-left: 5px;
   padding-right: 5px;
   max-width: none;
+  left: 10%;
+  width: 80%;
+  
 }
 .text{ 
   text-align: left;
@@ -76,8 +90,16 @@ main{
   
 } 
 
-
-
 @media (max-width: 600px ){
+ 
+    #img-big{
+      width: 295.19x;
+      height: 184.48px;
+    }
+    #carouselExampleControls{ 
+      position: absolute;
+      opacity: 0;
+    } 
+  
   
 }

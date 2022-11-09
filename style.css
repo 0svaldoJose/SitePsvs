@@ -7,24 +7,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #EFEFEF;
-}
 .slide-container{
-    max-width: 1120px;
+    height: 600px;
     width: 100%;
     padding: 40px 0;
 }
 .slide-content{
     margin: 0 40px;
-    overflow: hidden;
     border-radius: 25px;
 }
-.card{
+.cartinha{
     border-radius: 25px;
     background-color: #FFF;
 }
