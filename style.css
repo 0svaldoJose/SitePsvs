@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .slide-container{
-    height: 600px;
+    height: 70%;
     width: 100%;
     padding: 40px 0;
 }
@@ -44,8 +44,8 @@
 
 .card-image{
     position: relative;
-    height: 150px;
-    width: 250px;
+    height: 180px;
+    width: 90%;
     border-radius: 10%;
     background: #EFEFEF;
     padding: 3px;
@@ -60,6 +60,7 @@
     font-size: 18px;
     font-weight: 500;
     color: #333;
+    text-align: center;
 }
 .description{
     font-size: 14px;

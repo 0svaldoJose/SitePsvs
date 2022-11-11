@@ -44,11 +44,15 @@ main{
   padding-top: 0.1%;
   padding-bottom: 3%;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 .big{
   width: 100%;
   margin-bottom: 5%;
   margin-top: 2%;
+  overflow: hidden;
 }
 
 .norm{
